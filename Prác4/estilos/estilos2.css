@@ -1,0 +1,182 @@
+.contP{
+
+    width: 20%;
+    height: 90vh;    
+    background-color: blueviolet ;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    position: fixed;
+    left: 72%;
+    top: 15vh;
+
+}
+
+#chk{
+
+    display: none;
+
+}
+
+.registro{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.elemento{
+
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+#lista{
+
+    padding-right: 50%;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 80%;
+    height: 40%;
+
+}
+
+.elemento textarea{
+
+    margin-top: 3vh;
+
+}
+
+#lbl{
+
+    color: #fff;
+    font-size: 5vh;
+    justify-content: center;
+    margin: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    display: flex;
+
+}
+
+#lbl2{
+
+    color: #fff;
+    font-size: 2vh;
+    font-weight: bold;
+
+}
+
+
+
+#inpt{
+
+    width: 90%;    
+    height: auto;
+    margin: 5%;
+    background-color: white;
+    justify-content: center;
+    display: flex;    
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+
+#textarea{
+
+    justify-content: center;
+    margin-top: 4%;
+    border-radius: 10px;
+
+}
+
+.boton{
+
+    width: 60%;
+    height: 45%;
+    justify-content: center;
+    display: block;
+    position: relative;
+    left: 20%;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20;
+    background-color: #F15BB5;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+
+}
+
+
+/*.boton:hover{
+
+    background-color: yellow;
+
+}*/
+
+.login{
+
+    height: 100%;
+    width: 100%;
+    background: #eee;
+    border-radius: 60%/10%;
+    transform: translateY(-27vh);
+    transition: .8s ease-in-out;
+    text-align: center;
+
+}
+
+
+
+.login #lbl{
+
+    color: #573b8a;
+    transform: scale(.6);
+
+}
+
+#chk:checked ~ .login{
+
+    transform: translateY(-86vh);
+
+}
+
+#chk:checked ~ .login #lbl{
+
+    transform: scale(1);
+
+}
+
+#chk:checked ~ .registro #lbl{
+
+    transform: scale(.8);
+
+}
+
+
+input[type="submit"]:hover{
+
+    background-color: #00BBF9;
+
+}
+
+input[type="reset"]:hover{
+
+    background-color: #00BBF9;
+
+}
+

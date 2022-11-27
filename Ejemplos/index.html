@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos código</title>
+    <link href="./estilos/estilos.css" rel="stylesheet">
+
+</head>
+<body>    
+        
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Agrupacion de varios controles:</legend>
+
+                <div class="elemento">
+                    <label for="cam">Campo de texto:</label>
+                    <input type="text" id="cam" name="campo" placeholder="Escriba algo">
+                </div>
+
+                <div class="elemento">
+                    <label for="lista">Lista de selección:</label>
+                    <select id="lista" name="lista">
+                    <option value="opcion1">opcion 1</option>
+                    <option value="opcion2">opcion 2</option>
+                    <option value="opcion3">opcion 3</option>
+                </div>
+              
+                <div class="elemento">
+                    <label for="textarea">Área de texto</label>
+                    <textarea id="textarea" name="textarea" cols="50" rows="5">En este control del formulario se pueden escribir varias lineas de texto.</textarea>
+                </div>
+
+            </fieldset>
+        </form>
+
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Agrupacion de botones:</legend>            
+                    <div class="elemento">
+                        <input type="reset" value="Restablecer">
+                        <input type="submit" value="Enviar">
+                    </div>
+            </fieldset>
+        </form>
+ 
+    
+</body>
+</html>
+
+<!--1-Boton de resset borrar todo
+    2-El campo de texto convertir las palabras a mayusculas
+    3-cuando seleccionan la opcion 3 te salga opcion invalida
+    4-Area de texto cada vez que escriba se convierta en el simbolo de porcentaje-->

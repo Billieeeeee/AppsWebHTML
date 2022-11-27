@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+body {
+  background-color: #1b2a4e;
+}
+
+#linea{
+
+    width: 100%;
+    background-color: white;
+    border-color: white;
+    height: 0.3%;
+
+}
+
+#ren{
+
+  margin-top: 7%;
+
+}
+
+#prr1{
+
+  font-family: 'Nunito', sans-serif;
+
+}
+
+
